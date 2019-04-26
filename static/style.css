@@ -1,0 +1,52 @@
+/* https://medium.muz.li/50-user-profile-page-design-inspiration-5c45aeeda400 */
+.page-bg {
+    background-color: white;
+}
+.dropdown-bar {
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 35px;
+    
+}
+/* Title and Hero image */
+.herome {
+    position: relative;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto; 
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #222;
+}
+.herome:after {
+    position: absolute;
+    top: 0;left: 0;
+    height: 100px;
+    width: 100px;
+    content: "";
+    background: linear-gradient(blue, purple);
+    opacity: 0.5;
+    mix-blend-mode: color;
+}
+.intro-title {
+    text-align: center;
+}
+/* Contact info */
+.intro-contact-bg {
+    position: relative;
+    background-color: blue;
+    background-image: linear-gradient(blue, purple);
+    opacity: 0.8;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #222;
+}
+.intro-contact-fa {
+    margin-left: 25px;
+    text-align: center;
+    font-size: 50px;
+    color: white;   
+}
+.intro-contact-info {
+    margin-top: 25px;
+    color: white;
+}
