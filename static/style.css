@@ -10,6 +10,19 @@
     text-align: center;
     color: white;
 }
+.pg-para {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .pg-headers {
+        margin-bottom: 35px;
+    }
+}
 /* Title and Hero image */
 .herome {
     position: relative;
@@ -27,7 +40,7 @@
     width: 200px;
     content: "";
     background: linear-gradient(blue, purple);
-    opacity: 0.5;
+    opacity: 0.6;
     mix-blend-mode: color;
 }
 .intro-title {
@@ -69,6 +82,21 @@
     margin-top: 25px;
     color: white;
 }
+.intro-contact-sm {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+@media (min-width: 768px) {
+    .fa-mobile-alt {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    .fa-envelope {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+}
 
 /* About Me */
 .aboutme-bg {
@@ -86,6 +114,19 @@
     height: 250px;
     width: 100%;
     opacity: 0.8
+}
+
+@media (min-width: 768px) {
+    .knowme-vid {
+        height: 350px;
+    }
+    .pg-para {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: white;
+        width: 50%;
+    }
 }
 
 /* Project */
@@ -120,9 +161,49 @@
     background-color: white;
     color: purple;
 }
-
+.project-slide a:focus .project-slide a:active {
+    border: 1px solid white;
+}
 .project-slide img {
     margin-top: 10px;
     height: 220px;
     max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .project-slide img {
+        display: block;
+        margin: 0px auto;
+        height: 300px;
+    }
+}
+
+/* Resume */
+.resume-bg {
+    position: relative;
+    background-color: blue;
+    background-image: linear-gradient(blue, purple);
+    opacity: 0.8;
+    border-radius: 2px;
+    box-shadow: 5px 5px 5px #222;
+    margin-top: 30px;
+}
+.res-box img {
+    display: block;
+    margin: 20px auto 40px auto;
+    width: 75%;
+    transition: .5s;
+}
+.res-box img:hover {
+    transform: scale(1.1);   
+}
+.res-box p {
+    text-align: center;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    .res-box img {
+        width: 50%;
+    }
 }
